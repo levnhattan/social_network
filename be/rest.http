@@ -1,0 +1,13 @@
+###
+GET http://localhost:8000
+
+###
+POST  http://localhost:8000/api/user/register
+Content-Type: application/json
+
+{
+"email" : "admin@gmail.com",
+"password" : "Admin123456",
+"firstName" : "admin",
+"lastName" : "admin"
+}
